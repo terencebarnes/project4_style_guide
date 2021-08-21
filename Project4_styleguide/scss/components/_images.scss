@@ -1,0 +1,22 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+	@include center-auto;
+	margin-top: $ten-px;
+	max-width: $one-hundred-precent;
+	max-height: $one-hundred-precent;
+      }
+
+      .img-frame {
+	@include center-auto;
+	margin-top: $ten-px;
+	max-width: $one-hundred-precent;
+	padding: 13px;
+	border: 1px solid #ccc;
+      }
+
+      .img-logo {
+	@include center-auto;
+      }
